@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:beaktree/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:beaktree/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:beaktree/prow:hmacToken
+segmentWriteKey: vault:beaktree:segmentWriteKey
